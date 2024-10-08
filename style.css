@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.custom-color{
+    width: 100%;  min-height: 9rem; padding: 4rem; background-color: black;
+    color: white;
+}
+
+.custom-color1{
+    width: 100%;  height: auto; padding: 4rem; background-color: black;
+    color: white; text-align: center;
+}
+
+.hi:hover{
+    background-color: white; border-radius: 15px; 
+     width: 5rem; text-align: center; color: black !important; transition: 1s
+}
+.hi2:hover{
+    background-color: white; border-radius: 15px;  width: 5rem; color: black !important; 
+    text-align: center; transition: 1s
+}
+.hi3:hover{
+    background-color: white; color: black!important; border-radius: 15px;  width: 5rem;
+text-align: center; transition: 1s
+}
+.hi4:hover{
+    background-color: white; color: black!important; border-radius: 15px; 
+    transition: 1s width: 5rem; text-align: center; 
+}
+.hi5:hover{
+    background-color: white; color: black!important; border-radius: 15px;  color: white
+    transition: 1s width: 5rem; text-align: center; 
+}
+
+.button1{
+    padding: 1rem; border-radius: 12rem; border: none; font-weight: bolder;
+}
+.button2{
+    padding: 1rem; border-radius: 12rem; border: none; background-color: black; color: white;
+    font-weight: bolder;
+}
+
+@media (min-width: 992px) {
+    .about-section
+    {
+        padding: 8rem;
+    }
+}
+.about-section2{
+    width: 100%;  min-height: 40rem; padding: 4rem; 
+}
+.about-text2{
+    color: gold;
+}
+.tools-used{
+    width: 100%;   
+}
+
+.about-section img{
+    border-radius: 10%; margin-top: 2rem; align-items: center; max-height: 15rem; width: auto;
+    border: 2px solid white; margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .about-section img{
+        margin-left: 1rem; margin-top: 2rem; max-height: 18rem; width: auto; align-items: center;
+    }
+}
+
+@media (max-width: 540px) {
+    .about-section img{
+        margin-left: 1rem; margin-top: 3rem; max-height: 18rem; width: auto; align-items: center; margin: auto;
+    }
+}
+
+@media (min-width: 1300px) {
+    .about-section img{
+        margin-left: 1rem; margin-top: 2rem; max-height: 20rem; width: auto;
+    }
+}
+.travel-pack{
+color: white;
+}
+
+
+@media (min-width: 1300px) {
+    .about-text {
+    font-size: 2.8rem;  
+    }
+}
+
+}
+@media (min-width: 768px) {
+    .about-text {
+    font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 540px) {
+    .image-container{
+        text-align: center;
+    }
+}
+@media(max-width: 480px) {
+    .about-text2{
+        text-align: center;
+    }
+}
+@media(max-width: 480px) {
+    .about-text3{
+        text-align: center;
+    }
+}
+@media(max-width: 480px) {
+    .button1{
+    
+    }
+}
+.about-section2 img{
+    border-radius: 10%; margin-top: 3rem; align-items: center; max-height: 30rem; width: auto;
+    border: 2px solid black; 
+}
+@media (min-width: 768px) {
+    .about-section2 img{
+        margin-left: 3rem; margin-top: 2rem; max-height: 30rem; width: auto;
+    }
+}
+.row{
+    align-items: center;
+}
+.design{
+    background-color: white; color: black; width: 100%; padding: 3rem; min-height: 25rem; border-radius: 3rem;
+    line-height: 2rem;
+}
+@media (min-width: 992px) {
+    .design{
+       width: 80%; font-size: 1.5rem;
+    }
+}
+.text2{
+    line-height: 1.5rem;
+}
+@media (max-width: 480px) {
+    .text2{
+        line-height: 1.5rem;
+    }
+}
+
+.tools{
+    display: flex; flex-wrap: wrap;
+}
+a{
+    display: inline-block; padding: 0.5rem;
+}
+
+
+.fa-envelope {
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-twitter {
+    color: #1DA1F2;
+  }
+  
+  
+  .fa-instagram {
+    color: #E1306C;
+  }
+  
+  .fa-linkedin-in {
+    color: #0A66C2;
+  }
+  
+  .fa-whatsapp {
+    color: #25D366;
+  }
+  
+  
+.fa-tiktok {
+    color: #010101;     
+  }
+  
+.email-link{
+    color: rgb(153, 206, 250);
+}
+  
