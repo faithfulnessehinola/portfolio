@@ -175,7 +175,11 @@ a{
   text-align: center;
     }
 }
-
+@media (max-width: 480px) {
+    .img-fluid{
+  margin-left: 3rem;
+    }
+}
 
 .fa-envelope {
     color: rgb(0, 0, 0);
